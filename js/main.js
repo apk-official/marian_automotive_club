@@ -83,15 +83,3 @@ const instagram = instaHandle.addEventListener("click", () => {
     "https://instagram.com/marian_automotive_club?igshid=YmMyMTA2M2Y=l";
 });
 
-//*----------------
-//*Collapse Menu
-//*----------------
-
-const navLinks = document.querySelectorAll(".nav-item");
-const menuToggle = document.getElementById("navbarNav");
-const bsCollapse = new bootstrap.Collapse(menuToggle);
-navLinks.forEach((l) => {
-  l.addEventListener("click", () => {
-    bsCollapse.toggle();
-  });
-});
