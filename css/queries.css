@@ -1,0 +1,118 @@
+/*----------------------*/
+/**---MEDIA QUERIES---**/
+/*---------------------*/
+
+/** Screen size with 1200px and low  **/
+
+@media screen and (max-width: 1200px) {
+}
+
+/** Screen size with 992px and low  **/
+
+@media screen and (max-width: 992px) {
+  .navbar-expand-lg{
+    justify-content: space-between !important;
+  }
+  .item-one{
+  padding-top: 4rem !important;
+}
+.nav-link{
+  padding-bottom: 1rem !important;
+  padding-left: 8rem;
+}
+.item-last{
+  padding-bottom:4rem !important;
+}
+.img-bottom{
+  display: none !important;
+}
+.img-top{
+  display: block !important;
+}
+
+}
+/** Screen size with 768px and low  **/
+
+@media screen and (max-width: 768px) {
+  .slide p {
+    padding: 0 20px;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .detail-container p {
+    max-width: 18rem;
+  }
+}
+
+/** Screen size with 576px and low  **/
+
+@media screen and (max-width: 576px) {
+  .sponsor-logo {
+    height: 5rem;
+  }
+}
+/** Screen size with 480px and low  **/
+
+@media screen and (max-width: 480px) {
+  .cards {
+    width: 100%;
+    min-height: 35rem;
+  }
+  .card-img {
+    width: 99%;
+  }
+  .event-name {
+    font-size: 20px !important;
+  }
+  .event-card-text {
+    font-size: 16px;
+  }
+  .advisor-column {
+    min-height: 50vh;
+  }
+  .detail-container {
+    width: 100vw !important;
+    min-height: 40vh;
+    border-radius: 0;
+    background-color: var(--white);
+  }
+  .testimonial .image {
+    height: 90px;
+    width: 90px;
+    bottom: 17rem;
+  }
+  .testimonial-section {
+    min-height: 70vh;
+  }
+  .sponsor-logo {
+    height: 4.8rem;
+    padding: 10;
+  }
+  .test-head{
+    max-width: 90%;
+  }
+  .event-btn:link,
+  .event-btn:visited {
+  padding: 0.8rem 5rem;
+}
+.testimonial-section {
+  min-height: 90vh;
+}
+.advisor-column{
+  padding: 3rem 2rem;
+}
+.advisor-para {
+
+  font-size: 1.3rem;
+}
+.head{
+  width: auto !important;
+  padding: 0 1rem;
+}
+.sponsor-container {
+  border-radius: 0 !important;
+}
+}
+
+
