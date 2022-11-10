@@ -76,10 +76,22 @@ const contact = contactBtn.addEventListener("click", () => {
 });
 
 const gal = galleryBtn.addEventListener("click", () => {
-  window.location.href =
-    "/gallery.html";
+  window.location.href = "/gallery.html";
 });
 const instagram = instaHandle.addEventListener("click", () => {
   window.location.href =
     "https://instagram.com/marian_automotive_club?igshid=YmMyMTA2M2Y=l";
+});
+
+//*----------------
+//*Collapse Menu
+//*----------------
+
+const navLinks = document.querySelectorAll(".nav-item");
+const menuToggle = document.getElementById("navbarNav");
+const bsCollapse = new bootstrap.Collapse(menuToggle);
+navLinks.forEach((l) => {
+  l.addEventListener("click", () => {
+    bsCollapse.toggle();
+  });
 });
