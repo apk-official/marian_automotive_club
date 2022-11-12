@@ -68,7 +68,7 @@ body {
 .hero-section {
   width: 100vw;
   height: 100vh;
-  background: url("/images/header\ image.png");
+  background: url("/images/header-image.webp");
   background-position: center;
   background-size: cover;
   color: var(--white);
@@ -434,7 +434,7 @@ button,
   min-height: 70vh;
   background-color: var(--off-white);
   background: linear-gradient(rgba(0, 0, 0, 0.694), rgba(0, 0, 0, 0.709)),
-    url("/images/contact.jpg");
+    url("/images/contact.webp");
   background-position: center;
   background-size: cover;
   display: flex;

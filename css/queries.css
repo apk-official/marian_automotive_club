@@ -113,6 +113,15 @@
 .sponsor-container {
   border-radius: 0 !important;
 }
+.testimonial .slide{
+  row-gap: 0;
+}
+.testimonial .image{
+  position:static !important;
+}
+.testimonial-section{
+  justify-content: center;
+}
 }
 
 

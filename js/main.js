@@ -4,6 +4,10 @@ const galleryBtn = document.querySelector("#gallery");
 const menuOpenIcon = document.querySelector("#burger-icon");
 const menuCloseIcon = document.querySelector("#menu-close");
 const instaHandle = document.querySelector("#insta");
+const event1 = document.querySelector("#event-1");
+const event2 = document.querySelector("#event-2");
+const event3 = document.querySelector("#event-3");
+const event4 = document.querySelector("#event-4");
 
 //*----------------
 //*Menu icon change
@@ -29,10 +33,10 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   grabCursor: true,
   loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -82,4 +86,26 @@ const instagram = instaHandle.addEventListener("click", () => {
   window.location.href =
     "https://instagram.com/marian_automotive_club?igshid=YmMyMTA2M2Y=l";
 });
+
+//Event button navigation
+//*----------------
+//*Event card links
+//*----------------
+
+// const newEvent1 = event1.addEventListener("click", () => {
+//   window.location.href =
+//     "https://instagram.com/marian_automotive_club?igshid=YmMyMTA2M2Y=l";
+// });
+// const newEvent2 = event2.addEventListener("click", () => {
+//   window.location.href =
+//     "https://instagram.com/marian_automotive_club?igshid=YmMyMTA2M2Y=l";
+// });
+// const newEvent3 = event3.addEventListener("click", () => {
+//   window.location.href =
+//     "https://instagram.com/marian_automotive_club?igshid=YmMyMTA2M2Y=l";
+// });
+// const newEvent4 = event4.addEventListener("click", () => {
+//   window.location.href =
+//     "https://instagram.com/marian_automotive_club?igshid=YmMyMTA2M2Y=l";
+// });
 
