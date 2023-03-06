@@ -223,10 +223,12 @@ button,
   text-align: center;
 }
 .advisor-column{
-  padding: 0 4rem;
+  padding: 4rem 4rem;
 }
-.pic-container {
-  background-color: #0ff;
+.pic-container{
+ 
+  border-right: 1px solid var(--off-white-2);
+   
 }
 
 .advisor-pic {
@@ -236,14 +238,23 @@ button,
 .advisor-para {
   color: var(--off-white);
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-style: italic;
   line-height: 142%;
 }
 .advisor-name {
   font-family: var(--font2);
+  padding: 4rem 4rem;
+  font-size: 1.25rem;
+  color: var(--off-white);
+  font-weight: 600;
+  line-height: 142%;
+  
+}
+.designation{
+  color: rgba(255, 255, 255, 0.566);
+  font-weight: 300;
   padding-top: 1.5rem;
-  font-size: 16px;
 }
 /*-----------------------*/
 /**Achievement section  */

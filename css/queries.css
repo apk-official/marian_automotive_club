@@ -10,26 +10,28 @@
 /** Screen size with 992px and low  **/
 
 @media screen and (max-width: 992px) {
-  .navbar-expand-lg{
+  .navbar-expand-lg {
     justify-content: space-between !important;
   }
-  .item-one{
-  padding-top: 4rem !important;
-}
-.nav-link{
-  padding-bottom: 1rem !important;
-  padding-left: 8rem;
-}
-.item-last{
-  padding-bottom:4rem !important;
-}
-.img-bottom{
-  display: none !important;
-}
-.img-top{
-  display: block !important;
-}
-
+  .item-one {
+    padding-top: 4rem !important;
+  }
+  .nav-link {
+    padding-bottom: 1rem !important;
+    padding-left: 8rem;
+  }
+  .item-last {
+    padding-bottom: 4rem !important;
+  }
+  .img-bottom {
+    display: none !important;
+  }
+  .img-top {
+    display: block !important;
+  }
+  /* .advisor-wrapper{
+  flex-direction: row-reverse;
+} */
 }
 /** Screen size with 768px and low  **/
 
@@ -50,6 +52,15 @@
 @media screen and (max-width: 576px) {
   .sponsor-logo {
     height: 5rem;
+  }
+  .pic-container {
+    border-right: 1px solid transparent;
+    padding: 0;
+  }
+  .advisor-name {
+    padding: 0;
+  }
+  .advisor-column {
   }
 }
 /** Screen size with 480px and low  **/
@@ -89,39 +100,37 @@
     height: 4.8rem;
     padding: 10;
   }
-  .test-head{
+  .test-head {
     max-width: 90%;
   }
   .event-btn:link,
   .event-btn:visited {
-  padding: 0.8rem 5rem;
+    padding: 0.8rem 5rem;
+  }
+  .testimonial-section {
+    min-height: 90vh;
+  }
+  .advisor-column {
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+  }
+  .advisor-para {
+    font-size: 1.125rem;
+  }
+  .head {
+    width: auto !important;
+    padding: 0 1rem;
+  }
+  .sponsor-container {
+    border-radius: 0 !important;
+  }
+  .testimonial .slide {
+    row-gap: 0;
+  }
+  .testimonial .image {
+    position: static !important;
+  }
+  .testimonial-section {
+    justify-content: center;
+  }
 }
-.testimonial-section {
-  min-height: 90vh;
-}
-.advisor-column{
-  padding: 3rem 2rem;
-}
-.advisor-para {
-
-  font-size: 1.3rem;
-}
-.head{
-  width: auto !important;
-  padding: 0 1rem;
-}
-.sponsor-container {
-  border-radius: 0 !important;
-}
-.testimonial .slide{
-  row-gap: 0;
-}
-.testimonial .image{
-  position:static !important;
-}
-.testimonial-section{
-  justify-content: center;
-}
-}
-
-
